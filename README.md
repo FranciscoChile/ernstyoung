@@ -18,7 +18,7 @@ curl --location --request POST 'http://localhost:8080/authenticate' \
 
 5. Crear usuario con Postman ó usar Curl (reemplazar TOKEN)
 curl --location --request POST 'http://localhost:8080/api/users' \
---header 'Authorization: Bearer <TOKEN>' \
+--header 'Authorization: Bearer TOKEN' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "name",
