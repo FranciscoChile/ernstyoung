@@ -6,8 +6,8 @@
 
 # How to build and deploy
 1. Bajar codigo fuente
-2. Crear jar con mvn package
-3. java -jar auto-app-0.0.1-SNAPSHOT.jar Application.java
+2. Se incluye jar
+3. Ejecutar java -jar auto-app-0.0.1-SNAPSHOT.jar Application.java
 4. Importar archivo Postman para generar token ó usar Curl
 curl --location --request POST 'http://localhost:8080/authenticate' \
 --header 'Content-Type: application/json' \
